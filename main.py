@@ -3,10 +3,11 @@ import tweepy
 from os import listdir
 from os.path import isfile, join
 
-consumer_key = 'CHo8OPU0WZBb17cd0FMt8H40n'
-consumer_secret = 'qkizWofRqvsn7KYvZD5U1U16nAyeFKat96vRLNQE4sjDjTuNwg'
-access_token = '1503040220572356614-I0a2jrr2etftLKFPRrOUfvwMapxl3x'
-access_token_secret = 'JADc0N1lv54648JAkwd0jLSs44N92sT2VSlEHIYpswx6w'
+#Provide your own credentials here.
+consumer_key = '#######################################'
+consumer_secret = '####################################'
+access_token = '#######################################'
+access_token_secret = '####################################'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
