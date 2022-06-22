@@ -1,7 +1,7 @@
 # GetAndSortTweets
 
 
-#####Step 1
+##### Step 1
 
 Install all the requirements. Also, keep your twitter developer account ready alongwith the API keys.
 
@@ -16,12 +16,12 @@ To install both of these:
 Open your terminal and copy the following command
 For txt file:
 ```
-snscrape twitter-search "#coronavirus since:2020-01-01 until:2021-01-03" > scraped_tweets.txt
+snscrape twitter-search "#feminisme since:2021-03-01 until:2022-03-01" > scraped_tweets.txt
 ```
 
 Now, you've got a txt file which contains the URL of the same tweets that you require.
 
-#####Step 3
+##### Step 3
 
 Copy the file that was created to the ./file directory in the cloned repository
 
